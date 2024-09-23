@@ -1,7 +1,7 @@
 # BIO-InformaticaProject
 
 # PROBLEM 2
-## (1 point) Copy the files to your home directory on IBEX. Uncompress the zip file on IBEX.
+## Copy the files to your home directory on IBEX. Uncompress the zip file on IBEX.
 scp C:\Users\CHUYASCM\Desktop\Bioinformatic\Assigment2_Week2\BacterialGenome_dataset.zip  chuyascm@ilogin.ibex.kaust.edu.sa:~/
 
 OUTPUT:
