@@ -53,6 +53,7 @@ git commit -m "added Gene_finder_filtered"
 nano Gene_finder_RBS.py  
 > python Gene_finder_RBS.py ORFsFilt.txt -u 20 -r AGGAGG > ORF_RBS.txt
 ls
-less ORF_RBS.txt 
-
+less ORF_RBS.txt  
+git add Gene_finder_RBS.py
+git commit -m "added Gene_finder_RBS"
 
