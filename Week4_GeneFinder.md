@@ -41,3 +41,5 @@ less ORFs14genomes.txt
 
 # Question 5. 
 ### Find all Open Reading Frames in the 14 genomes and discard short ORFs that are unlikely to be functional genes
+nano Gene_finder_filtered.py  
+
