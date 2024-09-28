@@ -46,6 +46,8 @@ python Gene_finder_filtered.py ORFs14genomes.txt -l 100 > ORFsFilt.txt
 
 ls  
 less ORFsFilt.txt  
+git add Gene_finder_filtered.py
+git commit -m "added Gene_finder_filtered"  
 > python Gene_finder_filtered.py ORFs14genomes.txt -l 100 > ORFsFilt.txt
 
 # Question 6. 
