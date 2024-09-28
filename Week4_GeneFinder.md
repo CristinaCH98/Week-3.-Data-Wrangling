@@ -57,3 +57,8 @@ less ORF_RBS.txt
 git add Gene_finder_RBS.py
 git commit -m "added Gene_finder_RBS"
 
+# Save on Git Repository
+
+git remote add origing https://github.com/CristinaCH98/BioInfo-Project.git  
+git branch -M main  
+git push -u origing main
