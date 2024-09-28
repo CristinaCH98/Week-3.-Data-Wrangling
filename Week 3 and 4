@@ -48,4 +48,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 #OUTPUT: python gene_finder.py input.fasta
+
+#PROBLEM 2
+
+
