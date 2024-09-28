@@ -24,4 +24,7 @@ touch Gene_finder.py README.md
 # Question 2. 
 ### Extracting ORFs from a fasta file including reverse complement
 nano Gene_finder_reverse.py  
+git add Gene_finder_reverse.py  
+git commit -m "added Gene_finder_reverse.py"  
+> python Gene_finder_reverse.py example1.fasta  
 
