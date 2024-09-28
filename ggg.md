@@ -18,4 +18,4 @@ git init
 touch Gene_finder.py README.md
 
 # Question 1. 
-## 
+### Extracting genomic regions from a FASTA file based on start and stop codons
