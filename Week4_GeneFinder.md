@@ -26,5 +26,11 @@ touch Gene_finder.py README.md
 nano Gene_finder_reverse.py  
 git add Gene_finder_reverse.py  
 git commit -m "added Gene_finder_reverse.py"  
-> python Gene_finder_reverse.py example1.fasta  
+> python Gene_finder_reverse.py example1.fasta
+
+# Question 3. 
+### Open Reading Frame problem on Rosalind (Problem 72)
+
+# Question 4. 
+### Find all Open Reading Frames in the 14 genomes you downloaded
 
