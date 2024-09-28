@@ -15,9 +15,11 @@ git init
 touch Gene_finder.py README.md
 
 # Question 1. 
-### Extracting genomic regions from a FASTA file based on start and stop codons
+### Extracting ORFs from a FASTA file
  nano Gene_finder.py  
  git add Gene_finder.py README.md  
  git commit -m "added Gene_finder.py"  
  > python Gene_finder.py example1.fasta
  
+# Question 2. 
+### Extracting ORFs from a fasta file including reverse complement
