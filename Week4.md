@@ -5,7 +5,8 @@
 ## Install Biopython 
 pip install biopython
 
-output: Successfully installed biopython-1.84 numpy-2.0.2
+> Successfully installed biopython-1.84 numpy-2.0.2
+
 # Step 2. 
 
 ## Initialize git repository 
