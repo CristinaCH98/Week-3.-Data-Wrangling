@@ -40,6 +40,13 @@ ls
 less ORFs14genomes.txt
 
 # Question 5. 
-### Find all Open Reading Frames in the 14 genomes and discard short ORFs that are unlikely to be functional genes
+### Find all Open Reading Frames in the 14 genomes and discard short ORFs that are unlikely to be functional genes - Filtration (-l 100)
 nano Gene_finder_filtered.py  
+
+> python Gene_finder_filtered.py ORFs14genomes.txt -l 100 > ORFsFilt.txt
+
+# Question 6. 
+### Find all filtered Open Reading Frames - ribosome binding site (RBS)
+
+
 
