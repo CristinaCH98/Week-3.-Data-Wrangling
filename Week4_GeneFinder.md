@@ -34,3 +34,10 @@ git commit -m "added Gene_finder_reverse.py"
 # Question 4. 
 ### Find all Open Reading Frames in the 14 genomes you downloaded
 
+find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" | while read genome; do python Gene_finder_reverse.py "$genome"; done > ORFs14genomes.txt
+
+ls  
+less ORFs14genomes.txt
+
+# Question 5. 
+### Find all Open Reading Frames in the 14 genomes and discard short ORFs that are unlikely to be functional genes
