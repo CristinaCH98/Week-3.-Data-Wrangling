@@ -52,8 +52,7 @@ git commit -m "added Gene_finder_filtered"
 ### Find all filtered Open Reading Frames - ribosome binding site (RBS)
 nano Gene_finder_RBS.py  
 > python Gene_finder_RBS.py ORFsFilt.txt -u 20 -r AGGAGG > ORF_RBS.txt
-> ls
-> less ORF_RBS.txt
-> 
+ls
+less ORF_RBS.txt 
 
 
