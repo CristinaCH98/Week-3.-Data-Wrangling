@@ -2,7 +2,7 @@
 
 # PROBLEM 2
 ## Copy the files to your home directory on IBEX. Uncompress the zip file on IBEX.
-scp C:\Users\CHUYASCM\Desktop\Bioinformatic\Assigment2_Week2\BacterialGenome_dataset.zip  chuyascm@ilogin.ibex.kaust.edu.sa:~/
+scp C:\Users\CHUYASCM\Desktop\Bioinformatic\Assigment2_Week2\BacterialGenome_dataset.zip  chuyascm@ilogin.ibex.kaust.edu.sa:~/  
 unzip BacterialGenome_dataset.zip
 
 OUTPUT:
