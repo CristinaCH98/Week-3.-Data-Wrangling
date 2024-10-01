@@ -1,9 +1,5 @@
 # BIO-InformaticaProject
 
-# LLM used for this task
-## ChatGPT 40 mini.
-I used ChatGPT to address specific questions while developing a basic script. Initially, I created a simple version; then, I asked ChatGPT to improve it or make it more efficient to ensure the output was correct. This process helped refine the code and enhance its functionality.
-
 # PROBLEM 2
 ## Copy the files to your home directory on IBEX. Uncompress the zip file on IBEX.
 scp C:\Users\CHUYASCM\Desktop\Bioinformatic\Assigment2_Week2\BacterialGenome_dataset.zip  chuyascm@ilogin.ibex.kaust.edu.sa:~/
