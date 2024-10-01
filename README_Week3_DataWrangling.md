@@ -25,15 +25,15 @@ OUTPUT: The smallest genome is in "GCA_000008725.1_ASM872v1_genomic.fna": 105555
 
 ## Find the number of genomes that contain at least two “c” in the species name. 
 
-find /home/chuyascm/ncbi_dataset/data/GCA* -type f -name "*.fna" -exec sh -c 'grep -E "^>" "$1" | awk -F " " "{print \$2}" | grep -E "c.*c" | wc -l' _ {} \; | awk '{total += $1} END {print total}'
+grep -E 'GCA' /home/chuyascm/ncbi_dataset/data/data_summary.tsv | grep -E 'c.*c' | wc -l
 
 OUTPUT: 7
 
 ## How many of the species names contain two or more “c” but do not contain the word “coccus”?
 
-find /home/chuyascm/ncbi_dataset/data/GCA* -type f -name "*.fna" -exec sh -c 'grep -E "^>" "$1" | awk -F " " "{print \$2}" | grep -E "c.*c" | grep -v "coccus" | wc -l' _ {} \; | awk '{total += $1} END {print total}'
+grep -E 'GCA' /home/chuyascm/ncbi_dataset/data/data_summary.tsv | grep -E 'c.*c' | grep -v 'coccus' | wc -l
 
-OUTPUT: 2 
+OUTPUT: 5 
 
 # PROBLEM 5
 
