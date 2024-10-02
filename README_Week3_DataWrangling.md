@@ -39,8 +39,9 @@ OUTPUT: 5
 
 ## Use the find command to find all genome files (FASTA) larger than 3 megabyte. 
 
-find /home/chuyascm/ncbi_dataset/data -type f -name "*.fna" -size +3M | wc -l
+find /home/chuyascm/ncbi_dataset/data -type f -name "*GCA*.fna" -si
+ze +3M | wc -l
 
-OUTPUT: 6 
+OUTPUT: 3 
 
 
